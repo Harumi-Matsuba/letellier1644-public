@@ -1,0 +1,88 @@
+line	pos	mine	ai1	ai2	ai3	majority_vs_mine
+r_L01	1	19	19	=19	=19	MAJ:=19
+r_L01	13	9	9	9	g	
+r_L02	9	y	y	z7	z7	MAJ:z7
+r_L02	12	n	n	n	u	
+r_L03	8	=81	81	81	81	MAJ:81
+r_L03	10	9	g	g	g	MAJ:g
+r_L04	3	xt	xx	xx	xx	MAJ:xx
+r_L05	10	aq	oo	oo	oo	MAJ:oo
+r_L06	4	9	g	g	g	MAJ:g
+r_L06	12	9	g	g	g	MAJ:g
+r_L06	17	2	-	-	-	MAJ:-
+r_L06	18	3hat	23	3hat	?{23の3に曲線冠}	split
+r_L07	15	9	g	g	g	MAJ:g
+r_L08	12	u	n	u	u	
+r_L08	21	ax	th	th	ax	MAJ:th
+r_L09	11	zx	zc	zc	zc	MAJ:zc
+r_L09	14	9	g	g	g	MAJ:g
+r_L10	2	hb	hb	hb	k	
+r_L10	5	9	g	g	g	MAJ:g
+r_L10	18	y	y	z7	z7	MAJ:z7
+r_L11	1	6	sg	sg	sg	MAJ:sg
+r_L11	17	zx	zc	zc	zc	MAJ:zc
+r_L12	5	xx	ae	ae	ae	MAJ:ae
+r_L12	13	6	sg	sg	sg	MAJ:sg
+r_L12	20	g	?{right-edge partial curve}	g	g	
+r_L13	17	zx	zx	-	-	MAJ:-
+r_L13	18	sg	-	zc	zc	MAJ:zc
+r_L13	20	y	y	z7	z7	MAJ:z7
+r_L13	21	x	ae	ae	ae	MAJ:ae
+r_L14	9	9	g	g	g	MAJ:g
+r_L14	13	x	ae	ae	ae	MAJ:ae
+r_L15	1	mm	m	m	mm	MAJ:m
+r_L15	14	y	y	z7	z7	MAJ:z7
+r_L15	18	6	sg	sg	sg	MAJ:sg
+r_L16	8	k	hb	hb	k	MAJ:hb
+r_L16	10	ff	H	H	H	MAJ:H
+r_L16	12	g	9	g	g	
+r_L16	16	oo	?{large oval with inward lower-right hook}	?{大きな横長の輪と下向きの尾}	oo	split
+r_L17	13	u	n	n	u	MAJ:n
+r_L17	15	x	ae	ae	ae	MAJ:ae
+r_L18	9	6	sg	sg	sg	MAJ:sg
+r_L19	1	x	ae	ae	ae	MAJ:ae
+r_L19	15	9	g	g	g	MAJ:g
+r_L19	18	=3	3hat	3hat	3hat	MAJ:3hat
+v_L01	1	mm	m	m	mm	MAJ:m
+v_L01	3	2	-	-	-	MAJ:-
+v_L01	4	4	24	24	24	MAJ:24
+v_L01	10	6	sg	sg	sg	MAJ:sg
+v_L02	1	aq	oo	oo	oo	MAJ:oo
+v_L02	11	y	y	z7	z7	MAJ:z7
+v_L02	21	=9	=9	=g	=g	MAJ:=g
+v_L03	12	2	-	-	-	MAJ:-
+v_L03	13	4	24	24	24	MAJ:24
+v_L03	20	y	y	z7	z7	MAJ:z7
+v_L04	3	u	u	n	u	
+v_L04	7	x	ae	ae	ae	MAJ:ae
+v_L04	13	9	g	g	g	MAJ:g
+v_L04	19	6	sg	sg	sg	MAJ:sg
+v_L04	21	y	y	y	mz	
+v_L05	1	[de]	[de	[de	[de	MAJ:[de
+v_L05	2	[faire]	faire]	faire]	faire]	MAJ:faire]
+v_L05	4	6	sg	sg	sg	MAJ:sg
+v_L06	9	=39	-	-	-	MAJ:-
+v_L06	10	a	-	-	-	MAJ:-
+v_L06	11	q	3	3	3	MAJ:3
+v_L06	12	m	9	g	g	MAJ:g
+v_L06	13	dl	a	a	[a	MAJ:a
+v_L06	14	2	[quoy]	[quoy]	quoy]	MAJ:[quoy]
+v_L06	15	=11	=n	=n	=n	MAJ:=n
+v_L07	1	mm	m	m	mm	MAJ:m
+v_L07	7	y	y	z7	z7	MAJ:z7
+v_L07	18	zx	zx	zc	zc	MAJ:zc
+v_L08	2	m	u	u	u	MAJ:u
+v_L08	8	6	sg	sg	sg	MAJ:sg
+v_L08	15	y	y	z7	z7	MAJ:z7
+v_L09	5	zx	zx	zc	zc	MAJ:zc
+v_L09	9	9	g	g	g	MAJ:g
+v_L09	13	k	hb	hb	k	MAJ:hb
+v_L09	19	x	ae	ae	ae	MAJ:ae
+v_L10	3	9	g	g	g	MAJ:g
+v_L10	9	6	sg	sg	sg	MAJ:sg
+v_L10	14	9	g	g	g	MAJ:g
+v_L11	3	9	g	g	g	MAJ:g
+v_L11	7	y	y	z7	z7	MAJ:z7
+v_L11	14	u	n	n	u	MAJ:n
+v_L12	2	6	sg	sg	sg	MAJ:sg
+v_L12	9	x	ae	ae	ae	MAJ:ae

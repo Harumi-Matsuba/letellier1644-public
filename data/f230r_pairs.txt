@@ -1,0 +1,22 @@
+# f.230r（c486）の暗号文を記号名で書き起こし、f.232r の解読文と1記号ずつ対応させたもの（2026-10-20、目視）
+# 書式：記号:字（? は対応が確かでない）。[ ] は平文で書かれた語
+L01 hz:t th:e a:n u:e z3:s =9:pour 12:c 3:h dl:o g:s u:e R:c 14:e zc:r 6:t ct:a rho:i y:n th:e =11:que 13:d H:o 20:m
+L02 18:i 22:o 7:s u:e mm:p oo:h th7:m pb:a zc:r inf:g m:u th:e f:r rho:i hz:t o:? [est] 6:t E:o m:u beta:t ff:a
+L03 x:f 10:a 18:i ax:c 6:t t:d ct:a dl:n 9:s aq:l u:e mz:s q:i 21:n 6:t th:e zc:r 9:r bb:e 7:s p:? t:d 14:e
+L04 =y:Mle_Mareschal? =3:de_La_Motte? =12:qui 19:l xx:c dd:r 22:o rho:i 13:d beta:t E:o m:u hz:t R:c u:e =12:qui 6:l hz:l 5:u u:y?
+L05 18:i dl:n 7:s mm:p rho:i zc:r th:e 22:o k:u 15:f pb:a m:i R:c hz:t rho:i y:n mz:s c:p rho:i 9:r u:e ff?:r m:p? ct:a zc:r
+L06 19:l 10:a 4:v 10:a 6:l aq:l u:e th:e
+L06 14:e hz:t 6:l 22:o dd:r 9:s =12:qui 19:l pb:a 20:m 10:a a:n 13:d th:e
+L07 18:i xx:c u:y? =11:que [les] bb:m ct:a m:u k:u pb:a rho:i mz:s 8:s m:u R:c ax:c u:e t:d o:z? 10:a 5:u H:o q:i a:n hz:t
+L08 =9:pour 23:p 9:r 18:i 21:n R:c q:i c:p u:e 19:l ct:a xs:d th:e 7:s dl:o qb:b u:e rho:i mz:s 7:s pb:a 21:n xx:c bb:e
+L09 22:o m:u 21:n u:e y:g 6:l rho:i inf:g th:e a:n 12:c u:e t:d u:e a?:c 14:e m:u ell:x =12:qui ct:a 5:u dl:o rho:i u:e a:n
+L10 6:t 14:e mz:s 6:t u:e 12:c 3:h pb:a f:r y:g u:e o:z [de] 6:l 10:e? 3:x th:e R:c m:u hz:t rho:i 22:o dl:n 13:d u:e mz:s
+L11 =5:ordre mz:s [donnez] =9:pour 39:Catalogne 18:i 19:l a:n 14:e 19:l pb:a m:p? dl:o rho:i a:n hz:t beta:e? 8:s x:c rho:r? hz:t
+L12 [comme] 14:e mz:s 6:t 10:a a:n hz:t ct:a y:b? 4:u g:s u:e 23:p pb:a zc:r aq:l 14:e 11:b zc:r
+L13 m:u rho:i R:c beta:t 12:c dl:o c:m? mm?:m 5:u a:n [mais comme] sg:l 14:e R:c g:r dl:o u:y 10:a
+L14 21:n 6:t x:f u:e zx:r Lx:m 14:e 20:m th:e y:n 6:t 14:e beta:t mz:s u:e 8:s 6:t ct:a a:n hz:t
+L15 19:l ff:a rho:i g:s mz:s u:e 23:p u:e 9:r 8:s 4:u ct:a t:d u:e zx:r mm?:p 10:a f:r =y:Monsieur_le_Mareschal =3:de_La_Motte
+L16 q:i aq:l pb:a bb:e 7:s 12:c dd:r rho:i 6:t 14:e 21:n 20:m 14:e 8:s th7:m u:e 7:s 14:e a:n 7:s
+L17 ff:a m:u zx:r u:e y:g th:e a:n hz:t =12:qui 14:e 8:s 6:t pb:a Lx:m m:u dl:n mz:s hz:t th:e zx:r [ainsy]
+L18 =11:que rho:i 10:a 2:y mm?:v u:e 4:u mm:p 10:a f:r m:u a:n u:e 6:l 14:e beta:t 6:t g:r u:e =11:que
+# 所見：同じ記号が隣の字にも使われる（9・g＝r／s、6＝t／l、hz＝t／l、y＝n／g、u＝e／y、dl＝o／n、m＝u／p）。Tomokiyo の表の丸印の組（9・9、3・3、ʒ・ʒ）と合う
