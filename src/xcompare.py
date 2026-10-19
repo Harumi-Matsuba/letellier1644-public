@@ -1,6 +1,6 @@
 # Claude の書き起こしと、別の AI の書き起こし（second/codex_pass*.txt）を行ごとに並べて比べる
 # 記号の並びを編集距離で対応させ、一致・食い違い・3回の多数を数える
-# 使い方: python3 src/xcompare.py data/transcription_f50_before_second.txt second/codex_pass1.txt second/codex_pass2.txt second/codex_pass3.txt > 出力.tsv
+# 使い方: python3 src/xcompare.py data/transcription_f50_before_xcheck.txt second/codex_pass1.txt second/codex_pass2.txt second/codex_pass3.txt > 出力.tsv
 import sys, re
 def norm(t):
     t = t.strip()

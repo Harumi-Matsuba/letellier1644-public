@@ -38,7 +38,7 @@ Not finding something does not prove that nobody has worked on it.
 |---|---|
 | NoAutopilot/cipher-lab `ciphers/baluze103-letellier-marca-1644/` | no commit since 2026-10-13T08:00Z; last push of the repository 2026-10-19T16:35Z, no commit title since then mentions bal103, baluze, marca or tellier |
 | GitHub code search "\"Baluze 103\"", "Tellier Marca 1644" | only NoAutopilot/cipher-lab; otherwise unrelated |
-| GitHub repository search "Tellier Marca", "baluze" | this repository and an unrelated one |
+| GitHub repository search "Tellier Marca", "baluze" | this repository (private; visible because the search was made logged in as its owner) and an unrelated one |
 | GitHub issue search "\"Baluze 103\"", "Tellier Marca" | nothing related |
 | cyphersolver (origin/main 0258b8ab, 2026-10-18), issues (latest #49, 2026-10-19) | nothing |
 | Cryptiana (louisxiv0 2025-12-06, unsolved 2026-10-13, ai 2026-10-19, verification 2026-10-15, GL 2026-10-15, last 25 blog posts) | Le Tellier only for Castelnau (1657, solved by Robert Pitt); no reading of f. 50 |

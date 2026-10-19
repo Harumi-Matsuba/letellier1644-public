@@ -1,6 +1,6 @@
 r01 lesconsestlersdela
 r02 barcelonneayantspr
-r03 soinnde faire preparerunl
+r03 soingde faire preparerunl
 r04 amcemarcaontesteo
 r05 cechosslrlamaisonduo
 r06 amsrce Monsieur le Mareschal de La Motte qui aertime?
@@ -12,7 +12,7 @@ r11 lesdespesches que ilrece
 r12 detacousou que ileenuoys
 r13 contaestsmedeuoirinform
 r14 leditsmarcaaffsn que il
-r15 psenoenardeetnesela
+r15 psenoegardeetnesela
 r16 paspersuaaespasho
 r17 cetuy qui fasticyaffai
 r18 de Barcelone sestplasndplusie
@@ -21,7 +21,7 @@ r20 ainse qui lpretendtousl
 v01 paquets que lescatalans
 v02 lueadressent et tous autres pour
 v03 descouurircqueonmande
-v04 icyetaffincorterlalinerte
+v04 icyetaffincorterlaligerte
 v05 de faire <=18> leschoses qui se
 v06 pssenten Catalogne a quoy la Reyne desire
 v07 passionnement que mmarca

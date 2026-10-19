@@ -1,20 +1,20 @@
 ## data/key.tsv data/transcription_f50.txt 1000
-real -3.458  shuffled median -5.645  p99 -5.089  max -4.942  shuffled>=real 0/1000
+real -3.446  shuffled median -5.634  p99 -5.110  max -5.006  shuffled>=real 0/1000
 ## data/key.tsv data/transcription_f50.txt 1000 --table-only
-real -3.370  shuffled median -5.540  p99 -5.009  max -4.867  shuffled>=real 0/1000
+real -3.388  shuffled median -5.551  p99 -5.034  max -4.900  shuffled>=real 0/1000
 ## controls/key_without_target.tsv data/transcription_f50.txt 1000
-real -3.421  shuffled median -5.599  p99 -5.071  max -4.726  shuffled>=real 0/1000
+real -3.429  shuffled median -5.606  p99 -5.074  max -4.737  shuffled>=real 0/1000
 ## data/key.tsv controls/heldout_last_fifth.txt 1000
-real -3.182  shuffled median -5.637  p99 -4.789  max -4.510  shuffled>=real 0/1000
+real -3.182  shuffled median -5.646  p99 -4.803  max -4.468  shuffled>=real 0/1000
 ## controls/key_without_target.tsv controls/heldout_last_fifth.txt 1000
-real -3.182  shuffled median -5.611  p99 -4.818  max -4.545  shuffled>=real 0/1000
+real -3.182  shuffled median -5.616  p99 -4.852  max -4.561  shuffled>=real 0/1000
 ## data/key.tsv second/codex_pass1.txt 1000
-real -3.682  shuffled median -5.639  p99 -5.054  max -4.934  shuffled>=real 0/1000
+real -3.751  shuffled median -5.641  p99 -5.099  max -4.983  shuffled>=real 0/1000
 ## data/key.tsv second/codex_pass2.txt 1000
-real -3.670  shuffled median -5.638  p99 -5.037  max -4.880  shuffled>=real 0/1000
+real -3.589  shuffled median -5.644  p99 -5.100  max -4.965  shuffled>=real 0/1000
 ## data/key.tsv second/codex_pass3.txt 1000
-real -3.619  shuffled median -5.639  p99 -5.051  max -4.873  shuffled>=real 0/1000
+real -3.540  shuffled median -5.647  p99 -5.080  max -4.937  shuffled>=real 0/1000
 ## data/key.tsv second/codex_pass4_halves.txt 1000
-real -3.647  shuffled median -5.639  p99 -5.053  max -4.890  shuffled>=real 0/1000
+real -3.716  shuffled median -5.643  p99 -5.087  max -4.890  shuffled>=real 0/1000
 ## data/key.tsv second/codex_pass5_halves.txt 1000
-real -3.627  shuffled median -5.642  p99 -5.081  max -4.962  shuffled>=real 0/1000
+real -3.527  shuffled median -5.640  p99 -5.138  max -4.998  shuffled>=real 0/1000

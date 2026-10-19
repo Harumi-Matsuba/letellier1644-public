@@ -1,6 +1,6 @@
 # BnF Baluze 103 f.50r（c111）・f.50v（c112）の暗号文。記号名は SIGNS.md。2026-10-20、原寸の画像を目視で書き起こし（1人、1回）
 # =N は上に横線のある語の符号、[語] は平文で書かれた語、cut は綴じ目で切れて読めない記号
-# 注：ꝭꝭ（ff）と Ⱨ（H）、mm と m、ꝭʒ（hz）と ϭ（sg）、× の2形は見分けが難しく、文脈で選んだ箇所がある（DECIPHERMENT.md の注）
+# 注：ꝭꝭ（ff）と Ⱨ（H）、mm と m、ꝭʒ（hz）と ϭ（sg）、× の2形は見分けが難しく、文脈で選んだ箇所がある（docs/READING.md の注）
 r01 19 u mz 12 dl a g th mz hz sg 14 9 7 13 u sg 10
 r02 qb pb f R 14 19 dl a y u 10 n ct 21 6 p 23 zc
 r03 7 E rho a y t u =81 mm 9 14 c ff f u dd m a sg

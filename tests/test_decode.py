@@ -52,10 +52,10 @@ class TestDecode(unittest.TestCase):
         self.assertIn('matched 256', out)
 
     def test_open_items(self):
-        # README の「10か所」と docs/OPEN.md の表の行数がそろう
+        # README の「9か所」と docs/OPEN.md の表の行数がそろう
         with open(os.path.join(ROOT, 'docs', 'OPEN.md'), encoding='utf-8') as f:
             rows = [l for l in f if l.startswith('| r') or l.startswith('| v')]
-        self.assertEqual(len(rows), 10)
+        self.assertEqual(len(rows), 9)
 
 
 if __name__ == '__main__':

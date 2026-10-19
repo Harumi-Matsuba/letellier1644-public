@@ -4,11 +4,11 @@
 
 フランス国立図書館 BnF Baluze 103 f. 50 にある、陸軍卿 Michel Le Tellier からカタルーニャの Pierre de Marca への書簡の暗号部分を、友清理士氏が復元した「Le Tellier-Marca Cipher (1644)」の表で読んだ記録です。
 
-- **状態：全文の読み（v0.1）。** f. 50r・v の暗号32行を通して読んだ。値の分からない記号・語が10か所ある（[docs/OPEN.md](docs/OPEN.md)）。
+- **状態：全文の読み（v0.1）。** f. 50r・v の暗号32行を通して読んだ。値の分からない記号・語が9か所ある（[docs/OPEN.md](docs/OPEN.md)）。
 - **先行との関係：** 友清理士氏は、同じ暗号の書簡のうち f. 50 だけを「undeciphered」としている（[Cryptiana](https://cryptiana.web.fc2.com/code/louisxiv0.htm)）。NoAutopilot/cipher-lab に、f. 50 を同じ表で部分的に読んだ下書きがある（2026-10-13 の版、「Status: partial」、630記号中451に値）。その下書きにすでに出ている語（「conseil」「que ledit」「descouvert」「surtou[t]」など、reading.txt の f50r L01・L09、f50v L09・L10）は、この読みでは **再現（reproduced）** であって新しくない。新しいのは、通した読み・鍵の補い・語の符号の確かめ・内容（下の「この読みで加えたこと」）。
 - **人は書き起こしを確かめていません。** 書き起こしは AI（Claude）が作り、別の AI（OpenAI Codex）が画像だけから独立に作った5回の書き起こしと照らして直しました。AI どうしの一致は、人による確認の代わりにはなりません。
 - **数字：**
-  - 2回目の書き起こし：Codex 5回。最終の書き起こし626記号のうち、5回とも同じ 581、多数が一致 613（[second/VOTE.md](second/VOTE.md)）。照合前の書き起こしとの一致は、Codex 1〜3回目で 565・554・559／633（[second/RESULT.md](second/RESULT.md)）。
+  - 2回目の書き起こし：Codex 5回。最終の書き起こし626記号のうち、5回とも同じ 580、多数が一致 612（[second/VOTE.md](second/VOTE.md)）。照合前の書き起こしとの一致は、Codex 1〜3回目で 565・554・559／633（[second/RESULT.md](second/RESULT.md)）。
   - 対照：鍵の値をかき混ぜた鍵1000通りで、本物以上は0回。表の記号だけ、f. 50 の文脈から推定した値を外した鍵、最後の5分の1だけ、Codex の5つの書き起こし、のどれでも0回（[controls/results.txt](controls/results.txt)）。
   - 較正：当時の解読文がある f. 171r の13行を、答えを見ずに同じ鍵で読むと、記号ごとの精度 0.924（256/277。主な値だけなら 0.874）、読みの文字の一致 93.6%（337/360）（[calib/RESULT.md](calib/RESULT.md)）。
   - 数字の出どころは [NUMBERS.md](NUMBERS.md)。
@@ -46,7 +46,7 @@ python3 -m unittest discover -s tests
 ## ファイル
 | 場所 | 中身 |
 |---|---|
-| data/transcription_f50.txt | f. 50 の記号名での書き起こし（照合後）。照合前は transcription_f50_before_second.txt |
+| data/transcription_f50.txt | f. 50 の記号名での書き起こし（照合後）。照合前は transcription_f50_before_xcheck.txt |
 | data/SIGNS.md | 記号名と形 |
 | data/key.tsv | 記号名→値。source 列で出典（友清氏の表・兄弟書簡の照合・推定）を区別 |
 | data/decoded_f50.txt | `src/decode.py` の出力 |

@@ -12,12 +12,13 @@
 3. Code groups: =9 pour, =11 que, =12 qui, =26 vous, =32 Barcelone, 81 faire, 39 Catalogne, =y Monsieur le Mareschal, =3 de La Motte, =11 =o la Reyne, =l =m du Roi. =3 was checked on f. 230r and f. 200r; =11 =o at three places of f. 189r against f. 190r.
 4. Column source: T = Tomokiyo's table; S = checked on f. 230r/f. 232r; X = split after the AI cross-check; C = inferred from f. 50 alone.
 - We first took 6 to stand for t and l, and y for n and g. The AI cross-check showed that l is a separate σ-shaped sign and n is a y with a bar, as Tomokiyo's table separates them. The f. 230r alignment was made before this split and has not been redone.
+- In the pre-publication check (20 Oct 2026) the key rows with source T were compared with Tomokiyo's table image and with NoAutopilot's independent copy of the same table (their key.tsv). y had wrongly been given the main value n; it is g, as in the table (the three y of f. 50 are the g of soing and garde and the b of liberté; none is n). The curly x has two forms, without a bar (f column) and with a bar through it (c column); Codex called both "ae". One place (r09) was corrected to the barred form (xx = c). The q-like sign for i is taken to be the 9-shaped sign of the table's i column (NoAutopilot copies it as 9).
 
 ## Transcription (`data/transcription_f50.txt`)
 - Claude transcribed the full-size line images once, by sign name (`data/transcription_f50_before_xcheck.txt`).
 - Second transcription: OpenAI Codex CLI (codex-cli 0.163.0-alpha.10.2 bundled with the ChatGPT app, default model) was given only the images and the list of sign names (shape descriptions only; no values, no first transcription, no key, no decipherment) and transcribed the page five times independently: passes 1–3 one image per line (`second/PROMPT.md`), passes 4–5 each line cut into two overlapping halves (`second/PROMPT_halves.md`). No pass ran a command or read a file (execution logs).
 - First transcription vs Codex passes 1–3: 565, 554, 559 of 633 signs agree; all three agree on 546. Disagreements were checked on the full-size image; we corrected the σ sign (10 places), the barred y (9), and "2 4" read as one number 24 (2), among others (`second/RESULT.md`).
-- Five-pass vote: of the final 626 signs, all five agree on 581, the majority agrees on 613, the majority gives another name on 11, no majority on 2. The 15 majority disagreements before the last revision were checked on the image and 4 corrected (`second/VOTE.md`).
+- Five-pass vote: of the final 626 signs, all five agree on 580, the majority agrees on 612, the majority gives another name on 12, no majority on 2. The 15 majority disagreements before the last revision were checked on the image and 4 corrected (`second/VOTE.md`).
 - **Agreement between AIs is not a substitute for checking by a person. No person has checked the transcription.**
 
 ## Controls (`src/control.py`, `controls/run.sh` → `controls/results.txt`)
@@ -25,12 +26,14 @@ Real key vs 1000 shuffles of its values, scored by French letter-trigram likelih
 
 | transcription | key | real | max of shuffles | shuffles ≥ real |
 |---|---|---|---|---|
-| final (32 lines) | all signs (70) | −3.458 | −4.942 | 0/1000 |
-| final | Tomokiyo's table signs only (57) | −3.370 | −4.867 | 0/1000 |
-| final | without values inferred from f. 50 (source C only) (65) | −3.421 | −4.726 | 0/1000 |
-| last fifth (f. 50v lines 7–12) | all signs | −3.182 | −4.510 | 0/1000 |
-| last fifth | without inferred values | −3.182 | −4.545 | 0/1000 |
-| Codex passes 1–5 | all signs | −3.682 / −3.670 / −3.619 / −3.647 / −3.627 | −4.934 / −4.880 / −4.873 / −4.890 / −4.962 | 0/1000 each |
+| final (32 lines) | all signs (69) | −3.446 | −5.006 | 0/1000 |
+| final | Tomokiyo's table signs only (57) | −3.388 | −4.900 | 0/1000 |
+| final | without values inferred from f. 50 (source C only) (65) | −3.429 | −4.737 | 0/1000 |
+| last fifth (f. 50v lines 7–12) | all signs | −3.182 | −4.468 | 0/1000 |
+| last fifth | without inferred values | −3.182 | −4.561 | 0/1000 |
+| Codex passes 1–5 | all signs | −3.751 / −3.589 / −3.540 / −3.716 / −3.527 | −4.983 / −4.965 / −4.937 / −4.890 / −4.998 | 0/1000 each |
+
+The score moved a little with each correction of the transcription and key (−3.421 before the cross-check, −3.458 after it, −3.446 after the table check); every version gives 0/1000.
 
 ## Calibration (`calib/`)
 Lines 12–24 of f. 171r were read with the same key and the reading frozen (SHA-256 in `calib/hashes_before_answer.txt`) before the period decipherment f. 172r was opened.
@@ -43,6 +46,10 @@ Lines 12–24 of f. 171r were read with the same key and the reading frozen (SHA
 | letter agreement of the bare key | 84.2% (303/360) |
 
 Only 13 lines; not fully blind (we had earlier read seven lines of f. 172r, the start of the page, in NoAutopilot's transcription, so lines 1–11 were not used). Two findings came after seeing the answer and were not added to the key: an unbarred "12 19" = qu'il, and a 9 with a small g above = Sr.
+
+## What can be reproduced from this repository
+- The checks of code groups on f. 189r, f. 200r and f. 230v, and the decisions made on enlarged images of f. 50, rest on images not included here (view numbers in SOURCES.md). The period decipherments of f. 190r and f. 205r were taken from NoAutopilot's transcriptions and are not included.
+- The Codex execution logs (JSON) contain local paths and are not included. "No pass ran a command or read a file" is what we saw in those logs; it cannot be checked from this repository.
 
 ## Relation to earlier work
 - Satoshi Tomokiyo: the table, and the listing of f. 50 as undeciphered.

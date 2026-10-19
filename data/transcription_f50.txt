@@ -1,8 +1,9 @@
 # BnF Baluze 103 f.50r（c111）・f.50v（c112）の暗号文。記号名は SIGNS.md。2026-10-20、原寸の画像を目視で書き起こし（1人、1回）
 # =N は上に横線のある語の符号、[語] は平文で書かれた語、cut は綴じ目で切れて読めない記号
-# 注：ꝭꝭ（ff）と Ⱨ（H）、mm と m、ꝭʒ（hz）と ϭ（sg）、× の2形は見分けが難しく、文脈で選んだ箇所がある（DECIPHERMENT.md の注）
-# 2026-10-20 改訂：別の AI（Codex）3回の書き起こしとの照合で、記号そのものの違いを直した（6→sg 10か所、y→z7 9か所、2 4→24 2か所、r06 の 2 3hat→23hat、v06 の a quoy は平文、r13 の sg を削除）。改訂前は f50_v1.txt。詳しくは second/RESULT.md
+# 注：ꝭꝭ（ff）と Ⱨ（H）、mm と m、ꝭʒ（hz）と ϭ（sg）、× の2形は見分けが難しく、文脈で選んだ箇所がある（docs/READING.md の注）
+# 2026-10-20 改訂：別の AI（Codex）3回の書き起こしとの照合で、記号そのものの違いを直した（6→sg 10か所、y→z7 9か所、2 4→24 2か所、r06 の 2 3hat→23hat、v06 の a quoy は平文、r13 の sg を削除）。改訂前は data/transcription_f50_before_xcheck.txt。詳しくは second/RESULT.md
 # 2026-10-20 再改訂：Codex 5回の投票（second/vote.tsv）で多数が違った15か所を画像で見直し、4か所を直した（r03 =81→81、r04 xt→xx、r17 の13番目 u→n、v04 の3番目 u→n）。second/VOTE.md
+# 2026-10-20 再々改訂：r09 の16番目 ae→xx（横線の通った曲がった x。r12 の5番目と同じ形で、値 c）。鍵の y の主な値を、友清氏の表どおり g に直した
 r01 19 u mz 12 dl a g th mz hz sg 14 9 7 13 u sg 10
 r02 qb pb f R 14 19 dl a z7 u 10 n ct 21 6 p 23 zc
 r03 7 E rho a y t u 81 mm 9 14 c ff f u dd m a sg
@@ -11,7 +12,7 @@ r05 xx th 12 3 E mz 7 sg f aq ct b ff rho g dl a t m dl
 r06 pb th7 mz 9 xx th =y =3 =12 10 bb 9 hz rho 20 u 23hat
 r07 m 10 dd R th Lx 22 rho 14 a mz bb 8 hz 9 14 18 z7
 r08 c dl 21 R hz m th hz sg u b u dl 6 t bb hz H m 6 ax bb
-r09 =11 19 th t mz 6 g q u m zx th7 pb 9 f ae 10 15 14
+r09 =11 19 th t mz 6 g q u m zx th7 pb 9 f xx 10 15 14
 r10 E hb xx 18 9 ct 13 u R th =11 12 22 a 6 rho th z7 13 cut
 r11 sg u g t u mz mm th g ax 17 bb g =11 rho 19 zx th R bb
 r12 13 u hz ff xx dl m g dl 4 =11 rho sg u 14 a m dl 2 g

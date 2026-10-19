@@ -9,12 +9,15 @@
 | r03 end | ϭ | preparer un l⟨ϭ⟩ (logis?) |
 | r04 | 22 (between dots) | ont esté ⟨22⟩ de choisir (a code group?) |
 | r06 end | 23̂ (a 3 with a hooked mark above) | qui a estimé ⟨23̂⟩ par ce moien |
-| r07 end | ʒ7 | estre in⟨ʒ7⟩ ponctuellement (informé?) |
+| r07 end | (word missing) | estre in… ponctuellement: ʒ7 = n gives "in"; the rest of the word is missing (informé?) |
 | r16 | Ꝺ 22 | ne se laisse pas persuader par ⟨Ꝺ 22⟩ |
 | r19 | ‡‡ (two bars) | on ouvre ⟨‡‡⟩ de La Motte (chez?) |
 | v05 | =18 | de faire ⟨=18⟩ les choses (not found in the sister letters; sçavoir is a weak guess) |
 | v11 | n / u | the i of "si tant est" |
-| r12 | xx (shape close to ae) | the C of "de la Cour" (value c from context; an x-type sign would be f) |
+
+## Inferred values (source C)
+- 9f = s (r14 "S[ieur]"), l = m (end of r13 "inform-"), 24 = q (v01 paquets, v03 ce que). 23hat has no value (table above).
+- Where an unbarred 12 followed by 19 is read as qu'il (v08, v10, v12), this was supplied in the reading, not in the key.
 
 ## Not checked
 - An unbarred "12 19" / "12 6" read as qu'il (f. 50v lines 8, 10, 12). Confirmed on f. 171r against the period decipherment ("quil"), but not added to the key.
