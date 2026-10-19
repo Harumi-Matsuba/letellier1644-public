@@ -22,8 +22,9 @@
 ## Transcription (`data/transcription_f50.txt`)
 - Claude transcribed the full-size line images once, by sign name (`data/transcription_f50_before_xcheck.txt`).
 - Second transcription: OpenAI Codex CLI (codex-cli 0.163.0-alpha.10.2 bundled with the ChatGPT app, default model) was given only the images and the list of sign names (shape descriptions only; no values, no first transcription, no key, no decipherment) and transcribed the page five times independently: passes 1–3 one image per line (`second/PROMPT.md`), passes 4–5 each line cut into two overlapping halves (`second/PROMPT_halves.md`). No pass ran a command or read a file (execution logs).
-- First transcription vs Codex passes 1–3: 565, 554, 559 of 633 signs agree; all three agree on 546. Disagreements were checked on the full-size image; we corrected the σ sign (10 places), the barred y (9), and "2 4" read as one number 24 (2), among others (`second/RESULT.md`).
-- Five-pass vote: of the final 626 signs, all five agree on 580, the majority agrees on 612, the majority gives another name on 12, no majority on 2. The 15 majority disagreements before the last revision were checked on the image and 4 corrected (`second/VOTE.md`).
+- First transcription vs Codex passes 1–3: 565, 554, 559 of 633 signs agree; all three agree on 546. Disagreements were checked on the full-size image; we corrected the barred y (9) and "2 4" read as one number 24 (2), among others. Of ten places first changed to the σ sign, only the two confirmed on the image were kept and eight were returned to 6 (`second/RESULT.md`; every correction is listed in `second/CORRECTIONS.md`).
+- Five-pass vote: of the final 626 signs, all five agree on 572, the majority agrees on 604, the majority gives another name on 20, no majority on 2. The 15 majority disagreements before the last revision were checked on the image and 4 corrected (`second/VOTE.md`).
+- The five passes above were used to correct the transcription, so they are a cross-check record, not an independent second reading. **Independent second transcription**: after the last correction (commit f30eee9), Codex read the page once more in a fresh context (`second/PROMPT_independent.md`, `second/codex_independent.txt`): same name on 568 of 626 signs (90.7%), 590 (94.2%) counting names with the same key value as one. The largest disagreement: nine barred y (n) read as plain y (g). The transcription was not corrected from this comparison (`second/INDEPENDENT.md`).
 - **Agreement between AIs is not a substitute for checking by a person. No person has checked the transcription.**
 
 ## Controls (`src/control.py`, `controls/run.sh` → `controls/results.txt`)
@@ -31,14 +32,14 @@ Real key vs 1000 shuffles of its values, scored by French letter-trigram likelih
 
 | transcription | key | real | max of shuffles | shuffles ≥ real |
 |---|---|---|---|---|
-| final (32 lines) | all signs (73) | −3.286 | −5.073 | 0/1000 |
-| final | Tomokiyo's table signs only (61) | −3.185 | −4.741 | 0/1000 |
-| final | without values inferred from f. 50 (source C only) (69) | −3.266 | −4.784 | 0/1000 |
-| last fifth (f. 50v lines 7–12) | all signs | −3.182 | −4.579 | 0/1000 |
-| last fifth | without inferred values | −3.182 | −4.400 | 0/1000 |
+| final (32 lines) | all signs (73) | −3.302 | −5.079 | 0/1000 |
+| final | Tomokiyo's table signs only (61) | −3.203 | −4.741 | 0/1000 |
+| final | without values inferred from f. 50 (source C only) (69) | −3.281 | −4.782 | 0/1000 |
+| last fifth (f. 50v lines 7–12) | all signs | −3.008 | −4.450 | 0/1000 |
+| last fifth | without inferred values | −3.008 | −4.625 | 0/1000 |
 | Codex passes 1–5 | all signs | −3.751 / −3.589 / −3.540 / −3.716 / −3.527 | −5.011 / −4.996 / −5.006 / −5.041 / −4.976 | 0/1000 each |
 
-The score moved with each correction (−3.421 before the cross-check, −3.458 after it, −3.446 after the y correction, −3.286 after splitting mz and mi); every version gives 0/1000. The Codex transcriptions have no mi, so their real scores do not depend on that split.
+The score moved with each correction (−3.421 before the cross-check, −3.458 after it, −3.446 after the y correction, −3.286 after splitting mz and mi, −3.302 after returning eight σ to 6); every version gives 0/1000. The Codex transcriptions have no mi, so their real scores do not depend on that split.
 
 ## Calibration (`calib/`)
 Lines 12–24 of f. 171r were read with the same key and the reading frozen (SHA-256 in `calib/hashes_before_answer.txt`) before the period decipherment f. 172r was opened.

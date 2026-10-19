@@ -15,6 +15,10 @@
 | v05 | =18 | de faire ⟨=18⟩ les choses (not found in the sister letters; sçavoir is a weak guess) |
 | v11 | n / u | the i of "si tant est" |
 
+## Disputed in the transcription
+- Eight 6 (r11, r12, r15, v01, v05, v08, v10, v12) are read as σ (sg) by the independent Codex pass; the image does not decide (second/CORRECTIONS.md). Either way the value is l.
+- Nine barred y (z7 = n) are read as plain y by the independent Codex pass; the bar was checked on the image at all nine.
+
 ## Inferred values (source C)
 - 9f = s (r14 "S[ieur]"), l = m (end of r13 "inform-"), 24 = q (v01 paquets, v03 ce que). 23hat has no value (table above).
 - Where an unbarred 12 followed by 19 is read as qu'il (v08, v10, v12), this was supplied in the reading, not in the key.

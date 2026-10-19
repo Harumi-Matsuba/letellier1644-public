@@ -186,7 +186,7 @@ r_L10	16	rho	rho	rho	rho	rho	rho	5/5	rho
 r_L10	17	th	th	th	th	th	th	5/5	th
 r_L10	18	z7	y	z7	z7	y	z7	3/5	z7
 r_L10	19	13	13	13	13	13	13	5/5	13
-r_L11	1	sg	sg	sg	sg	sg	sg	5/5	sg
+r_L11	1	6	sg	sg	sg	sg	sg	0/5	sg
 r_L11	2	u	u	u	u	u	u	5/5	u
 r_L11	3	g	g	g	g	g	g	5/5	9
 r_L11	4	t	t	t	t	t	t	5/5	t
@@ -218,7 +218,7 @@ r_L12	9	dl	dl	dl	dl	dl	dl	5/5	dl
 r_L12	10	4	4	4	4	4	4	5/5	4
 r_L12	11	=11	=11	=11	=11	=11	=11	5/5	=11
 r_L12	12	rho	rho	rho	rho	rho	rho	5/5	rho
-r_L12	13	sg	sg	sg	sg	sg	sg	5/5	sg
+r_L12	13	6	sg	sg	sg	sg	sg	0/5	sg
 r_L12	14	u	u	u	u	u	u	5/5	u
 r_L12	15	14	14	14	14	14	14	5/5	14
 r_L12	16	a	a	a	a	a	a	5/5	a
@@ -285,7 +285,7 @@ r_L15	14	z7	y	z7	z7	y	z7	3/5	z7
 r_L15	15	bb	bb	bb	bb	bb	bb	5/5	bb
 r_L15	16	g	g	g	g	g	g	5/5	9
 r_L15	17	14	14	14	14	14	14	5/5	14
-r_L15	18	sg	sg	sg	sg	sg	sg	5/5	sg
+r_L15	18	6	sg	sg	sg	sg	sg	0/5	sg
 r_L15	19	ff	ff	ff	ff	ff	ff	5/5	ff
 r_L16	1	23	23	23	23	23	23	5/5	23
 r_L16	2	10	10	10	10	10	10	5/5	10
@@ -386,7 +386,7 @@ v_L01	5	th	th	th	th	th	th	5/5	th
 v_L01	6	6	6	6	6	6	6	5/5	6
 v_L01	7	p	p	p	p	pb	p	4/5	p
 v_L01	8	=11	=11	=11	=11	=11	=11	5/5	=11
-v_L01	9	sg	sg	sg	sg	sg	sg	5/5	sg
+v_L01	9	6	sg	sg	sg	sg	sg	0/5	sg
 v_L01	10	u	u	u	u	u	u	5/5	u
 v_L01	11	g	g	g	g	g	g	5/5	9
 v_L01	12	R	R	R	R	R	R	5/5	R
@@ -467,7 +467,7 @@ v_L04	25	th	th	th	th	th	th	5/5	th
 v_L05	1	[de]	[de	[de	[de	[de	[de	5/5	de
 v_L05	2	[faire]	faire]	faire]	faire]	faire]	faire]	5/5	faire
 v_L05	3	=18	=18	=18	=18	=18	=18	5/5	=18
-v_L05	4	sg	sg	sg	sg	sg	sg	5/5	sg
+v_L05	4	6	sg	sg	sg	sg	sg	0/5	sg
 v_L05	5	u	u	u	u	u	u	5/5	u
 v_L05	6	g	g	g	g	g	g	5/5	9
 v_L05	7	12	12	12	12	12	12	5/5	12
@@ -525,7 +525,7 @@ v_L08	4	19	19	19	19	19	19	5/5	19
 v_L08	5	22	22	22	22	22	22	5/5	22
 v_L08	6	u	u	u	u	u	u	5/5	u
 v_L08	7	mi	mz	mz	mz	mz	mz	5/5	mz
-v_L08	8	sg	sg	sg	sg	sg	sg	5/5	sg
+v_L08	8	6	sg	sg	sg	sg	sg	0/5	sg
 v_L08	9	14	14	14	14	14	14	5/5	14
 v_L08	10	6	6	6	6	6	6	5/5	6
 v_L08	11	=12	=12	=12	=12	=12	=12	5/5	=12
@@ -570,7 +570,7 @@ v_L10	5	22	22	22	22	22	22	5/5	22
 v_L10	6	m	m	m	m	m	m	5/5	m
 v_L10	7	beta	beta	beta	beta	beta	beta	5/5	beta
 v_L10	8	12	12	12	12	12	12	5/5	12
-v_L10	9	sg	sg	sg	sg	sg	sg	5/5	sg
+v_L10	9	6	sg	sg	sg	sg	sg	0/5	sg
 v_L10	10	u	u	u	u	u	u	5/5	u
 v_L10	11	th7	th7	th7	th7	th7	th7	5/5	th7
 v_L10	12	23	23	23	23	23	23	5/5	23
@@ -606,7 +606,7 @@ v_L11	19	u	u	u	u	u	u	5/5	u
 v_L11	20	g	g	g	g	g	g	5/5	9
 v_L11	21	6	6	6	6	6	6	5/5	6
 v_L12	1	12	12	12	12	12	12	5/5	12
-v_L12	2	sg	sg	sg	sg	sg	sg	5/5	sg
+v_L12	2	6	sg	sg	sg	sg	sg	0/5	sg
 v_L12	3	7	7	7	7	7	7	5/5	7
 v_L12	4	th	th	th	th	th	th	5/5	th
 v_L12	5	8	8	8	8	8	8	5/5	8
