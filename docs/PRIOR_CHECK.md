@@ -52,3 +52,16 @@
 | DECODE（de-crypt.org）R2742 | ログインが要る。NoAutopilot は「画像と友清氏の表だけ」と記録 |
 | 刊本：Sanabre『La acción de Francia en Cataluña』（1956）、Dubarat「Marca (1644-1651) et sa famille en Catalogne」（1927–28）、Torreilles（Revue des Questions historiques, 1901）、Chéruel 編 Mazarin 書簡集 | 全文を読めていない（Chéruel 第1巻は NoAutopilot が「Marca」で全文を検索し、この書簡はないと記録） |
 | Persée・Cairn・Dialnet | 個別には検索していない（ウェブ検索の範囲だけ） |
+
+## 再確認（2026-10-19 19:47 UTC＝日本時間 2026-10-20 04:47 以降）
+| 先 | 結果 |
+|---|---|
+| NoAutopilot/cipher-lab | `ciphers/baluze103-letellier-marca-1644/` の最後のコミットは f3dcded（2026-10-13）のまま。2026-10-13 以降のリポジトリ全体のコミット（約2,000件）の題に Baluze 103・Marca・Tellier はない（Baluze 167・169 の別の作業だけ）。issue にも該当なし |
+| cyphersolver | origin/main 0258b8ab（2026-10-18）のまま。issue の最新は #49（2026-10-19）。該当なし |
+| GitHub コード検索 | 「"Baluze 103"」は NoAutopilot/cipher-lab だけ。「Marca "La Motte" Barcelone paquets」は関係のない1件 |
+| Cryptiana | louisxiv0.htm 2025-12-06、unsolved.htm 2026-10-13、ai.htm 2026-10-19、ブログの最近の記事に該当なし |
+| Internet Archive の全文検索 | 「paquets que les Catalans」「tous les paquets que les Catalans」「Marca ait l oeil」「desire passionnement que M. Marca」「si tant est qu il se soit fait cy devant」は0件。「conseillers de la ville de Barcelonne」の8件はすべて1641年の条約の文面。語の組み合わせの検索（Le Tellier・Marca・paquets・1644 など）で出たものは、目録・伝記・Marca の書簡の刊行（Revue de Gascogne 1910）などで、この書簡の平文はない |
+| Baluze 文庫の目録（Catalogue des manuscrits de la Collection Baluze, 1921、Internet Archive の全文） | Baluze 103 について「Correspondance de Marca avec Le Tellier (4 avril-29 décembre 1644) … dont quelques-unes chiffrées, avec traductions (fol. 50, 171, 189, 200, 230)」と書く。f. 50 にも訳があるように読める。f. 50 の前後（47〜57 葉あたり、Gallica の104〜124コマ）を見たが訳の紙はなく、51 葉は余白と宛名（「receue le 3 may, resp. le 4 may」）、52 葉は整理の貼り紙2枚（「1644年5月20日の枢機卿宛ての手紙も同じ束にある」「ここにバルセロナの5月3日の知らせを入れること」）だった。ほかの4通は訳が暗号のすぐ後の葉にある（172・190・205・232 葉）。巻のほかの場所に f. 50 の訳がないことは確かめていない |
+| Marca の返事（121 コマ、「A M. le Tellier, du 4 May 1644」） | 着任と La Berchère からの引き継ぎの報告で、宿や包みの件には触れていない |
+| Google Books の API | 1日の上限で 429（4回） |
+| Gallica の全文検索 | ボット確認の画面のまま |

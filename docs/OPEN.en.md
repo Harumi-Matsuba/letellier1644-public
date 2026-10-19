@@ -24,6 +24,7 @@
 - Where an unbarred 12 followed by 19 is read as qu'il (v08, v10, v12), this was supplied in the reading, not in the key.
 
 ## Not checked
+- The 1921 catalogue of the Baluze collection counts f. 50 among the cipher letters "with translations". There is no translation on the leaves around f. 50; the rest of the volume has not been searched (docs/PRIOR_CHECK.en.md).
 - An unbarred "12 19" / "12 6" read as qu'il (f. 50v lines 8, 10, 12). Confirmed on f. 171r against the period decipherment ("quil"), but not added to the key.
 - Checking of the transcription by a person (only AI cross-checks).
 - f. 230r from line 22, f. 230v and f. 231r have not been transcribed or aligned.

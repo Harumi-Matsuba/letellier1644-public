@@ -52,3 +52,16 @@ Not finding a reading does not prove that none exists. The README does not call 
 | DECODE (de-crypt.org) R2742 | login needed; NoAutopilot records "images and Tomokiyo's table only" |
 | printed works: Sanabre (1956), Dubarat (1927–28), Torreilles (1901), Chéruel's Mazarin letters | not read in full (NoAutopilot searched Chéruel vol. 1 for "Marca" and found no such letter) |
 | Persée, Cairn, Dialnet | not searched separately (only through web search) |
+
+## Re-check (from 19 Oct 2026 19:47 UTC = 20 Oct 04:47 Japan time)
+| where | result |
+|---|---|
+| NoAutopilot/cipher-lab | last commit of the folder still f3dcded (13 Oct 2026); no commit title since 13 Oct (about 2,000 commits) mentions Baluze 103, Marca or Tellier (only other work on Baluze 167 and 169); nothing in the issues |
+| cyphersolver | origin/main still 0258b8ab (18 Oct 2026); latest issue #49 (19 Oct 2026); nothing |
+| GitHub code search | "\"Baluze 103\"": only NoAutopilot/cipher-lab; "Marca \"La Motte\" Barcelone paquets": one unrelated hit |
+| Cryptiana | louisxiv0.htm 2025-12-06, unsolved.htm 2026-10-13, ai.htm 2026-10-19, recent blog posts: nothing |
+| Internet Archive full text | the letter's own phrases: 0 hits; "conseillers de la ville de Barcelonne": 8 hits, all the 1641 treaty text; word-combination searches (Le Tellier, Marca, paquets, 1644 …) give catalogues, biographies and editions of Marca's letters (Revue de Gascogne 1910), not this letter's plaintext |
+| Catalogue des manuscrits de la Collection Baluze (1921; Internet Archive full text) | for Baluze 103: « Correspondance de Marca avec Le Tellier (4 avril-29 décembre 1644) … dont quelques-unes chiffrées, avec traductions (fol. 50, 171, 189, 200, 230) », which reads as if f. 50 also had a translation. We looked at the leaves around f. 50 (about ff. 47–57, Gallica views 104–124): no translation; f. 51 is blank and the address side (« receue le 3 may, resp. le 4 may »); f. 52 carries two filing slips. The other four letters have their translation on the next leaves (ff. 172, 190, 205, 232). Whether a translation of f. 50 is elsewhere in the volume has not been checked |
+| Marca's reply (view 121, « A M. le Tellier, du 4 May 1644 ») | reports his arrival and the handover from La Berchère; nothing on the lodging or the packets |
+| Google Books API | daily quota, 429 (4 tries) |
+| Gallica full text | still a bot check page |
