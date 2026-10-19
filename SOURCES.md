@@ -32,3 +32,16 @@
 | ウェブ検索（英語1回） | 該当なし |
 | DECODE（de-crypt.org）R2742 | ログインが要るため見ていない。NoAutopilot は「画像と友清氏の表だけ」と記録 |
 | 刊本（Sanabre ほか） | 見ていない |
+
+## 公表前の見直し（2026-10-20 夜、上と同じ先）
+| 調べた先 | 結果 |
+|---|---|
+| NoAutopilot/cipher-lab の `ciphers/baluze103-letellier-marca-1644/` | 2026-10-13T08:00Z 以降のコミット 0件。リポジトリ全体の最終 push は 2026-10-19T16:35Z で、同日以降のコミットの題に bal103・baluze・marca・tellier はない |
+| GitHub コード検索「"Baluze 103"」「Tellier Marca 1644」 | 前者は NoAutopilot/cipher-lab だけ。後者は関係のないものだけ |
+| GitHub リポジトリ検索「Tellier Marca」「baluze」 | このリポジトリと、関係のない baluzealster だけ |
+| GitHub issue 検索「"Baluze 103"」「Tellier Marca」 | 関係するものなし |
+| cyphersolver（origin/main 0258b8ab、2026-10-18）全文検索、issue（最新 #49、2026-10-19） | 該当なし |
+| Cryptiana（louisxiv0.htm 2025-12-06、unsolved.htm 2026-10-13、ai.htm 2026-10-19、verification.htm 2026-10-15、GL.htm 2026-10-15、ブログの最近25件） | Le Tellier の言及は Castelnau（1657、Robert Pitt 解読）だけ。f. 50 の読みはない |
+| Cryptoole（idx.json、854件） | Baluze 103 f. 50 の項目なし |
+| BravoBravoIX（公開8件）、pangoleen（最近の5件） | 該当なし |
+| ウェブ検索（仏語1回） | 該当なし |
