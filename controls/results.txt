@@ -1,0 +1,20 @@
+## data/key.tsv data/transcription_f50.txt 1000
+real -3.458  shuffled median -5.645  p99 -5.089  max -4.942  shuffled>=real 0/1000
+## data/key.tsv data/transcription_f50.txt 1000 --table-only
+real -3.370  shuffled median -5.540  p99 -5.009  max -4.867  shuffled>=real 0/1000
+## controls/key_without_target.tsv data/transcription_f50.txt 1000
+real -3.421  shuffled median -5.599  p99 -5.071  max -4.726  shuffled>=real 0/1000
+## data/key.tsv controls/heldout_last_fifth.txt 1000
+real -3.182  shuffled median -5.637  p99 -4.789  max -4.510  shuffled>=real 0/1000
+## controls/key_without_target.tsv controls/heldout_last_fifth.txt 1000
+real -3.182  shuffled median -5.611  p99 -4.818  max -4.545  shuffled>=real 0/1000
+## data/key.tsv second/codex_pass1.txt 1000
+real -3.682  shuffled median -5.639  p99 -5.054  max -4.934  shuffled>=real 0/1000
+## data/key.tsv second/codex_pass2.txt 1000
+real -3.670  shuffled median -5.638  p99 -5.037  max -4.880  shuffled>=real 0/1000
+## data/key.tsv second/codex_pass3.txt 1000
+real -3.619  shuffled median -5.639  p99 -5.051  max -4.873  shuffled>=real 0/1000
+## data/key.tsv second/codex_pass4_halves.txt 1000
+real -3.647  shuffled median -5.639  p99 -5.053  max -4.890  shuffled>=real 0/1000
+## data/key.tsv second/codex_pass5_halves.txt 1000
+real -3.627  shuffled median -5.642  p99 -5.081  max -4.962  shuffled>=real 0/1000

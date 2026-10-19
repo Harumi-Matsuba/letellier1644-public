@@ -1,0 +1,11 @@
+# BnF Baluze 103 f.50r（c111）・f.50v（c112）の暗号文。記号名は SIGNS.md。2026-10-20、原寸の画像を目視で書き起こし（1人、1回）
+# =N は上に横線のある語の符号、[語] は平文で書かれた語、cut は綴じ目で切れて読めない記号
+# 注：ꝭꝭ（ff）と Ⱨ（H）、mm と m、ꝭʒ（hz）と ϭ（sg）、× の2形は見分けが難しく、文脈で選んだ箇所がある（DECIPHERMENT.md の注）
+# 2026-10-20 改訂：別の AI（Codex）3回の書き起こしとの照合で、記号そのものの違いを直した（6→sg 10か所、y→z7 9か所、2 4→24 2か所、r06 の 2 3hat→23hat、v06 の a quoy は平文、r13 の sg を削除）。改訂前は f50_v1.txt。詳しくは second/RESULT.md
+# 2026-10-20 再改訂：Codex 5回の投票（second/vote.tsv）で多数が違った15か所を画像で見直し、4か所を直した（r03 =81→81、r04 xt→xx、r17 の13番目 u→n、v04 の3番目 u→n）。second/VOTE.md
+v07 mm ff g mz q H z7 a bb 20 14 a hz =11 Lx 20 10 zx 12 ff
+v08 pb u hz 19 22 u mz sg 14 6 =12 19 b 10 z7 t u R u [消] 12 19
+v09 14 a ct m zx pb xx 14 9 12 H m k u f 6 q 19 x ff m hz
+v10 8 5 9 6 22 m beta 12 sg u th7 23 14 9 R 3 th =11 12 14 19 pb
+v11 21 14 9 14 12 dl z7 hz mz 21 m u 8 u 6 10 a beta u g 6
+v12 12 sg 7 th 8 dl mz 6 x ct q 6 R 2 t th m 10 a hz

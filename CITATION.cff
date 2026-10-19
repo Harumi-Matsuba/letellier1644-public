@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this reading, please cite it as below. No person has checked the transcription; see README."
+title: "A reading of Le Tellier's cipher letter to Marca (BnF Baluze 103 f. 50, 26 April 1644)"
+version: "0.1"
+date-released: "2026-10-20"
+authors:
+  - name: "Harumi-Matsuba"
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/Harumi-Matsuba/letellier1644-public"
+keywords:
+  - cipher
+  - historical cryptography
+  - Le Tellier
+  - Pierre de Marca
+  - Catalonia
+  - 1644
+references:
+  - type: webpage
+    title: "Le Tellier-Marca Cipher (1644), in: Ciphers of Louis XIV's early reign"
+    authors:
+      - name: "Satoshi Tomokiyo"
+    url: "https://cryptiana.web.fc2.com/code/louisxiv0.htm"
+  - type: software
+    title: "cipher-lab: ciphers/baluze103-letellier-marca-1644"
+    authors:
+      - name: "NoAutopilot"
+    url: "https://github.com/NoAutopilot/cipher-lab"

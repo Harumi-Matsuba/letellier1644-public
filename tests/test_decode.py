@@ -43,5 +43,20 @@ class TestDecode(unittest.TestCase):
         self.assertIn('# matched 337/360', out)
 
 
+    def test_sign_accuracy(self):
+        out = subprocess.run([sys.executable, os.path.join(ROOT, 'src', 'score_signs.py'),
+                              os.path.join(ROOT, 'data', 'key.tsv'),
+                              os.path.join(ROOT, 'calib', 'f171r_tx.txt'),
+                              os.path.join(ROOT, 'calib', 'f172r_ref.txt')],
+                             capture_output=True, text=True, check=True).stdout
+        self.assertIn('matched 256', out)
+
+    def test_open_items(self):
+        # README の「10か所」と docs/OPEN.md の表の行数がそろう
+        with open(os.path.join(ROOT, 'docs', 'OPEN.md'), encoding='utf-8') as f:
+            rows = [l for l in f if l.startswith('| r') or l.startswith('| v')]
+        self.assertEqual(len(rows), 10)
+
+
 if __name__ == '__main__':
     unittest.main()

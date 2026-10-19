@@ -1,6 +1,6 @@
-# Claude の書き起こしと、別の AI の書き起こし（xcheck/codex_pass*.txt）を行ごとに並べて比べる
+# Claude の書き起こしと、別の AI の書き起こし（second/codex_pass*.txt）を行ごとに並べて比べる
 # 記号の並びを編集距離で対応させ、一致・食い違い・3回の多数を数える
-# 使い方: python3 src/xcompare.py data/transcription_f50_before_xcheck.txt xcheck/codex_pass1.txt xcheck/codex_pass2.txt xcheck/codex_pass3.txt > 出力.tsv
+# 使い方: python3 src/xcompare.py data/transcription_f50_before_second.txt second/codex_pass1.txt second/codex_pass2.txt second/codex_pass3.txt > 出力.tsv
 import sys, re
 def norm(t):
     t = t.strip()
@@ -42,24 +42,25 @@ def align(x, y):
         else:
             j -= 1
     return dict(out)
-mine = load_mine(sys.argv[1]); ais = [load_ai(p) for p in sys.argv[2:]]
-tot = 0; agree = [0]*len(ais); maj_dis = 0; allagree = 0
-print('line\tpos\tmine\t' + '\t'.join(f'ai{k+1}' for k in range(len(ais))) + '\tmajority_vs_mine')
-for lid in sorted(mine):
-    x = mine[lid]; al = [align(x, a.get(lid, [])) for a in ais]
-    for i, t in enumerate(x):
-        tot += 1
-        vs = [a.get(i, '-') for a in al]
-        ok = [match(t, v) for v in vs]
-        for k, o in enumerate(ok): agree[k] += o
-        if all(ok): allagree += 1
-        # 3回のうち2回以上が同じ別の読みなら「多数が違う」
-        others = [v for v, o in zip(vs, ok) if not o]
-        flag = ''
-        if sum(ok) <= len(ais) // 2:
-            from collections import Counter
-            c = Counter(others).most_common(1)
-            if c and c[0][1] >= 2: flag = 'MAJ:' + c[0][0]; maj_dis += 1
-            else: flag = 'split'
-        if not all(ok): print(f'{lid}\t{i+1}\t{t}\t' + '\t'.join(vs) + f'\t{flag}')
-print(f'# total {tot}  agree per pass {agree}  all-agree {allagree}  majority-differs {maj_dis}', file=sys.stderr)
+if __name__ == '__main__':
+    mine = load_mine(sys.argv[1]); ais = [load_ai(p) for p in sys.argv[2:]]
+    tot = 0; agree = [0]*len(ais); maj_dis = 0; allagree = 0
+    print('line\tpos\tmine\t' + '\t'.join(f'ai{k+1}' for k in range(len(ais))) + '\tmajority_vs_mine')
+    for lid in sorted(mine):
+        x = mine[lid]; al = [align(x, a.get(lid, [])) for a in ais]
+        for i, t in enumerate(x):
+            tot += 1
+            vs = [a.get(i, '-') for a in al]
+            ok = [match(t, v) for v in vs]
+            for k, o in enumerate(ok): agree[k] += o
+            if all(ok): allagree += 1
+            # 3回のうち2回以上が同じ別の読みなら「多数が違う」
+            others = [v for v, o in zip(vs, ok) if not o]
+            flag = ''
+            if sum(ok) <= len(ais) // 2:
+                from collections import Counter
+                c = Counter(others).most_common(1)
+                if c and c[0][1] >= 2: flag = 'MAJ:' + c[0][0]; maj_dis += 1
+                else: flag = 'split'
+            if not all(ok): print(f'{lid}\t{i+1}\t{t}\t' + '\t'.join(vs) + f'\t{flag}')
+    print(f'# total {tot}  agree per pass {agree}  all-agree {allagree}  majority-differs {maj_dis}', file=sys.stderr)

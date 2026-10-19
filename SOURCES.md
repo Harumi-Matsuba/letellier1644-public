@@ -1,5 +1,7 @@
 # 出典
 
+[English](SOURCES.en.md)
+
 ## 一次資料（リポジトリには含めていない）
 - **BnF, Baluze 103**（Affaires de Catalogne — Correspondance de Marca）、Gallica ark:/12148/btv1b9001389d
   - 111コマ：f. 50r（暗号20行）。https://gallica.bnf.fr/ark:/12148/btv1b9001389d/f111.item

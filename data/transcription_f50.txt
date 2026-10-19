@@ -1,11 +1,12 @@
 # BnF Baluze 103 f.50r（c111）・f.50v（c112）の暗号文。記号名は SIGNS.md。2026-10-20、原寸の画像を目視で書き起こし（1人、1回）
 # =N は上に横線のある語の符号、[語] は平文で書かれた語、cut は綴じ目で切れて読めない記号
 # 注：ꝭꝭ（ff）と Ⱨ（H）、mm と m、ꝭʒ（hz）と ϭ（sg）、× の2形は見分けが難しく、文脈で選んだ箇所がある（DECIPHERMENT.md の注）
-# 2026-10-20 改訂：別の AI（Codex）3回の書き起こしとの照合で、記号そのものの違いを直した（6→sg 10か所、y→z7 9か所、2 4→24 2か所、r06 の 2 3hat→23hat、v06 の a quoy は平文、r13 の sg を削除）。改訂前は f50_v1.txt。詳しくは xcheck/RESULT.md
+# 2026-10-20 改訂：別の AI（Codex）3回の書き起こしとの照合で、記号そのものの違いを直した（6→sg 10か所、y→z7 9か所、2 4→24 2か所、r06 の 2 3hat→23hat、v06 の a quoy は平文、r13 の sg を削除）。改訂前は f50_v1.txt。詳しくは second/RESULT.md
+# 2026-10-20 再改訂：Codex 5回の投票（second/vote.tsv）で多数が違った15か所を画像で見直し、4か所を直した（r03 =81→81、r04 xt→xx、r17 の13番目 u→n、v04 の3番目 u→n）。second/VOTE.md
 r01 19 u mz 12 dl a g th mz hz sg 14 9 7 13 u sg 10
 r02 qb pb f R 14 19 dl a z7 u 10 n ct 21 6 p 23 zc
-r03 7 E rho a y t u =81 mm 9 14 c ff f u dd m a sg
-r04 10 Lx xt bb th7 pb f R 10 dl a hz u g 6 14 22
+r03 7 E rho a y t u 81 mm 9 14 c ff f u dd m a sg
+r04 10 Lx xx bb th7 pb f R 10 dl a hz u g 6 14 22
 r05 xx th 12 3 E mz 7 sg f aq ct b ff rho g dl a t m dl
 r06 pb th7 mz 9 xx th =y =3 =12 10 bb 9 hz rho 20 u 23hat
 r07 m 10 dd R th Lx 22 rho 14 a mz bb 8 hz 9 14 18 z7
@@ -18,14 +19,14 @@ r13 xx E a hz pb th g 6 mz b 14 t u m H q zx rho z7 x dl f l
 r14 sg u t q 6 9f Lx pb 9 R ff 10 x 15 mz a =11 18 19
 r15 mm g u a dl th y ct dd t u 14 beta z7 bb g 14 sg ff
 r16 23 10 7 c u dd mz k pb ff th g mm 10 g oo 22
-r17 12 14 hz m 2 =12 gx 10 mz 6 q R u ct x 15 pb rho
+r17 12 14 hz m 2 =12 gx 10 mz 6 q R n ct x 15 pb rho
 r18 t u =32 7 th g 6 23 sg pb mz a t mm 19 m g q u
 r19 x dl 18 7 xx bb R u =11 dl a 22 4 m 9 th pb =3
 r20 10 18 a 8 u =12 19 23 f 14 6 u a 13 hz H m g 19
 v01 mm 10 24 4 th 6 p =11 sg u g R ff hz pb 19 10 a g
 v02 aq 5 u ct 13 f u g 7 th z7 6 [et] [tous] 10 4 hz f u g =9
 v03 13 u g ax dl m 4 f q f R 24 m 14 22 a 20 pb z7 13 u
-v04 q 12 u 14 6 10 x gx 18 a xx dl 9 hz u f 19 ff sg 18 y u dd 6 th
+v04 q 12 n 14 6 10 x gx 18 a xx dl 9 hz u f 19 ff sg 18 y u dd 6 th
 v05 [de] [faire] =18 sg u g 12 17 H mz 14 8 =12 7 th
 v06 23 7 8 14 a 6 14 21 39 [a] [quoy] =11 =o 13 u g 18 f bb
 v07 mm ff g mz q H z7 a bb 20 14 a hz =11 Lx 20 10 zx 12 ff

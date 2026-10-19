@@ -12,8 +12,10 @@
 | r19 | ‡‡（横棒2本） | on ouvre ⟨‡‡⟩ de La Motte（chez か） |
 | v05 | =18 | de faire ⟨=18⟩ les choses（兄弟書簡に見つからない。sçavoir は弱い推定） |
 | v11 | n／u | si tant est の i の位置 |
+| r12 | xx（形は ae に近い） | de la Cour の C（値 c は文脈から。x 類なら f） |
 
 ## 確かめていないこと
+- 横線のない「12 19」「12 6」を qu'il と読むこと（f. 50v 8・10・12行目）。f. 171r の較正で当時の解読文が「quil」と確かめたが、鍵には入れていない。
 - 書き起こしの人による確認（AI どうしの照合だけ）。
 - f. 230r の対応表を、σ形と横線のある y の区別をつけて見直すこと。
 - 「celuy qui fait icy les affaires de Barcelone」が誰か。f. 189r／f. 190r（1644年9月）の、包みが開けられるという訴えとの関係。
