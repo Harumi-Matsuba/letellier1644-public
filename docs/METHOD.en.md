@@ -55,7 +55,7 @@ The drop from 0.924 to 0.913 is because the frozen calibration transcription pre
 
 ## What can be reproduced from this repository
 - The checks of code groups on f. 189r, f. 200r and f. 230v, and the decisions made on enlarged images of f. 50, rest on images not included here (view numbers in SOURCES.md). The period decipherments of f. 190r and f. 205r were taken from NoAutopilot's transcriptions and are not included.
-- The Codex execution logs (JSON) contain local paths and are not included. "No pass ran a command or read a file" is what we saw in those logs; it cannot be checked from this repository.
+- The Codex execution logs (JSON) contain file paths and are not included. "No pass ran a command or read a file" is what we saw in those logs; it cannot be checked from this repository.
 
 ## Relation to earlier work
 - Satoshi Tomokiyo: the table, and the listing of f. 50 as undeciphered.

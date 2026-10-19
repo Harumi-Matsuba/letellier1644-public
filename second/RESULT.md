@@ -6,8 +6,8 @@
 
 ## 方法
 - OpenAI の Codex CLI（ChatGPT アプリ同梱の codex-cli 0.163.0-alpha.10.2、既定のモデル。実行記録にモデル名は出ない）に、f.50r 20行・f.50v 12行の行画像 32 枚（img/、原寸の c111・c112 から1行1枚に切り出し）と、記号名の一覧（PROMPT.md。形の説明だけで、値・私の書き起こし・鍵・解読文は含めない）を渡した。
-- 3回を別々に走らせた（`codex exec --ephemeral -s read-only`、空の作業フォルダから）。実行記録（JSON。手元のパスが入るので、このリポジトリには含めていない）には、3回とも返答1件だけがあり、コマンドの実行やファイルの読み込みはない。
-- 私の書き起こし（改訂前、../data/transcription_f50_before_xcheck.txt）と、行ごとに記号の並びを編集距離で対応させて比べた（../src/xcompare.py → compare.tsv。codex_pass1〜3.txt は Codex の出力そのまま）。
+- 3回を別々に走らせた（`codex exec --ephemeral -s read-only`、空のフォルダから）。実行記録（JSON。ファイルのパスが入るので、このリポジトリには含めていない）には、3回とも返答1件だけがあり、コマンドの実行やファイルの読み込みはない。
+- 私の書き起こし（照合前、../data/transcription_f50_before_xcheck.txt）と、行ごとに記号の並びを編集距離で対応させて比べた（../src/xcompare.py → compare.tsv。codex_pass1〜3.txt は Codex の出力そのまま）。
 
 ## 一致
 | 項目 | 数 |

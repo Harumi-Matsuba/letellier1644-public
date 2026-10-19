@@ -1,4 +1,4 @@
-# BnF Baluze 103 f.230r（c486）1〜21行目の書き起こし（2026-10-20 改訂、σ形・横線のある y・mz と mi・横線つきの曲がった x を分けて、画像を見直した。1回、目視）
+# BnF Baluze 103 f.230r（c486）1〜21行目の書き起こし（2026-10-20 書き直し、σ形・横線のある y・mz と mi・横線つきの曲がった x を分けて、画像を見直した。1回、目視）
 # 記号名は data/SIGNS.md。[消] は消した記号、[語] は平文。z3＝小さく書いた ʒ（f.50 にはない）。=83 は新しい語の符号（le Gouverneur）
 L01 hz th a u z3 =9 12 3 dl g u R 14 zc 6 ct rho z7 th =11 13 H 20
 L02 18 22 7 u mm oo th7 pb zx inf m th f rho hz o [est] 6 E m [消] beta ff
