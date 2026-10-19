@@ -32,7 +32,7 @@ Not finding a reading does not prove that none exists. The README does not call 
 |---|---|
 | Google Books full-text (API) | HTTP 429 on all seven queries; stopped |
 | Gallica full-text (SRU) | 403 with curl; a security check page in Chrome; stopped |
-| HathiTrust full-text | Cloudflare bot check; not tried |
+| HathiTrust full-text | one try with curl: 403 (Cloudflare check page); stopped |
 | DECODE (de-crypt.org) R2742 | login needed; NoAutopilot records "images and Tomokiyo's table only" |
 | printed works: Sanabre (1956), Dubarat (1927–28), Torreilles (1901), Chéruel's Mazarin letters | not read in full (NoAutopilot searched Chéruel vol. 1 for "Marca" and found no such letter) |
 | Persée, Cairn, Dialnet | not searched separately (only through web search) |

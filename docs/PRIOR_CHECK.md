@@ -32,7 +32,7 @@
 |---|---|
 | Google Books の全文検索（API） | 7回とも 429（アクセス制限）。そこで止めた |
 | Gallica の全文検索（SRU） | curl は 403。Chrome でもセキュリティ検証の画面が出たので、そこで止めた |
-| HathiTrust の全文検索 | Cloudflare のボット確認があり、試していない（RULES §4：ユーザーが Chrome で確認を押せば使える） |
+| HathiTrust の全文検索 | curl で1回試し、403（Cloudflare の確認画面「Just a moment...」）。そこで止めた（RULES §4：ユーザーが Chrome で確認を押せば使える） |
 | DECODE（de-crypt.org）R2742 | ログインが要る。NoAutopilot は「画像と友清氏の表だけ」と記録 |
 | 刊本：Sanabre『La acción de Francia en Cataluña』（1956）、Dubarat「Marca (1644-1651) et sa famille en Catalogne」（1927–28）、Torreilles（Revue des Questions historiques, 1901）、Chéruel 編 Mazarin 書簡集 | 全文を読めていない（Chéruel 第1巻は NoAutopilot が「Marca」で全文を検索し、この書簡はないと記録） |
 | Persée・Cairn・Dialnet | 個別には検索していない（ウェブ検索の範囲だけ） |
