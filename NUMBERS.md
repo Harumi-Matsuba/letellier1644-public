@@ -19,6 +19,7 @@ README・METHOD の数字ごとに、出どころと計算し直す方法を示�
 | 93.6% (337/360), 84.2% (303/360) | letter agreement of the reading / of the bare key | `python3 src/calib.py calib/f171r_reading.txt calib/f172r_ref.txt` and `calib/f171r_mech.txt` |
 | 13 lines, 360 letters | size of the calibration | `calib/f172r_ref.txt` |
 | 6 mz (s), 11 mi (i) | the split of mz, each checked on the image | names mz and mi in `data/transcription_f50.txt` |
+| 620 signs, 617 (99.5%), 613 (98.9%) | cipher signs; with a value; without inferred values | `python3 src/valued.py data/key.tsv data/transcription_f50.txt` |
 | 9 open items | signs or groups without a value | rows of the table in `docs/OPEN.md` |
 | 451 of 630 | NoAutopilot's draft | header of their reading.txt (version f3dcded, 13 Oct 2026; not in this repository) |
 | 21 lines, 424 signs, 406 / 412 | f. 230r aligned with f. 232r; signs falling on a key value with the key before / after the changes | `python3 src/align_sister.py data/key.tsv data/f230r_tx.txt data/f232r_ref_l1-21.txt` → `data/f230r_sign_counts.tsv` (sum the counts whose letter is among key_values); the 406 uses `data/key.tsv` of commit e009472 |
