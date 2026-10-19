@@ -6,7 +6,7 @@
 import sys, collections
 sys.path.insert(0, __file__.rsplit('/', 1)[0])
 from xcompare import load_mine, load_ai, align
-SAME = {'g': '9', 'ae': 'x', 'zc': 'zx', 'hb': 'k', '=g': '=9'}
+SAME = {'g': '9', 'ae': 'x', 'zc': 'zx', 'hb': 'k', '=g': '=9', 'mi': 'mz'}  # mi は Codex に渡した名前の一覧になかった
 def canon(t):
     t = t.split('/')[0].strip('[]')
     return SAME.get(t, t)

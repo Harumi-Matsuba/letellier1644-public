@@ -7,7 +7,7 @@ r_L01	5	dl	dl	dl	dl	dl	dl	5/5	dl
 r_L01	6	a	a	a	a	a	a	5/5	a
 r_L01	7	g	g	g	g	g	g	5/5	9
 r_L01	8	th	th	th	th	th	th	5/5	th
-r_L01	9	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L01	9	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L01	10	hz	hz	hz	hz	hz	hz	5/5	hz
 r_L01	11	sg	sg	sg	sg	sg	sg	5/5	sg
 r_L01	12	14	14	14	14	14	14	5/5	14
@@ -76,7 +76,7 @@ r_L05	2	th	th	th	th	th	th	5/5	th
 r_L05	3	12	12	12	12	12	12	5/5	12
 r_L05	4	3	3	3	3	3	3	5/5	3
 r_L05	5	E	E	E	E	E	E	5/5	E
-r_L05	6	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L05	6	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L05	7	7	7	7	7	7	7	5/5	7
 r_L05	8	sg	sg	sg	sg	sg	sg	5/5	sg
 r_L05	9	f	f	f	f	f	f	5/5	f
@@ -93,7 +93,7 @@ r_L05	19	m	m	m	m	m	m	5/5	m
 r_L05	20	dl	dl	dl	dl	dl	?{dl with crossed upper stroke}	4/5	dl
 r_L06	1	pb	pb	pb	pb	pb	pb	5/5	pb
 r_L06	2	th7	th7	th7	th7	th7	th7	5/5	th7
-r_L06	3	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L06	3	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L06	4	9	g	g	g	g	g	5/5	9
 r_L06	5	xx	xx	xx	xx	xx	xx	5/5	xx
 r_L06	6	th	th	th	th	th	th	5/5	th
@@ -152,7 +152,7 @@ r_L09	1	=11	=11	=11	=11	=11	=11	5/5	=11
 r_L09	2	19	19	19	19	19	19	5/5	19
 r_L09	3	th	th	th	th	th	th	5/5	th
 r_L09	4	t	t	t	t	t	t	5/5	t
-r_L09	5	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L09	5	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L09	6	6	6	6	6	6	6	5/5	6
 r_L09	7	g	g	g	g	g	g	5/5	9
 r_L09	8	q	q	q	q	q	q	5/5	q
@@ -234,7 +234,7 @@ r_L13	5	pb	pb	pb	pb	pb	pb	5/5	pb
 r_L13	6	th	th	th	th	th	th	5/5	th
 r_L13	7	g	g	g	g	g	g	5/5	9
 r_L13	8	6	6	6	6	6	6	5/5	6
-r_L13	9	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L13	9	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L13	10	b	b	b	b	b	b	5/5	b
 r_L13	11	14	14	14	14	14	14	5/5	14
 r_L13	12	t	t	t	t	t	t	5/5	t
@@ -263,7 +263,7 @@ r_L14	11	ff	ff	ff	ff	ff	ff	5/5	ff
 r_L14	12	10	10	10	10	10	10	5/5	10
 r_L14	13	x	ae	ae	ae	ae	ae	5/5	x
 r_L14	14	15	15	15	15	15	15	5/5	15
-r_L14	15	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L14	15	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L14	16	a	a	a	a	a	a	5/5	a
 r_L14	17	=11	=11	=11	=11	=11	=11	5/5	=11
 r_L14	18	18	18	18	18	18	18	5/5	18
@@ -312,7 +312,7 @@ r_L17	5	2	2	2	2	2	2	5/5	2
 r_L17	6	=12	=12	=12	=12	=12	=12	5/5	=12
 r_L17	7	gx	gx	gx	gx	gx	gx	5/5	gx
 r_L17	8	10	10	10	10	10	10	5/5	10
-r_L17	9	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L17	9	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L17	10	6	6	6	6	6	6	5/5	6
 r_L17	11	q	q	q	q	q	q	5/5	q
 r_L17	12	R	R	R	R	R	R	5/5	R
@@ -332,7 +332,7 @@ r_L18	7	6	6	6	6	6	6	5/5	6
 r_L18	8	23	23	23	23	23	23	5/5	23
 r_L18	9	sg	sg	sg	sg	sg	sg	5/5	sg
 r_L18	10	pb	pb	pb	pb	pb	pb	5/5	pb
-r_L18	11	mz	mz	mz	mz	mz	mz	5/5	mz
+r_L18	11	mi	mz	mz	mz	mz	mz	5/5	mz
 r_L18	12	a	a	a	a	a	a	5/5	a
 r_L18	13	t	t	t	t	t	t	5/5	t
 r_L18	14	mm	mm	mm	mm	mm	mm	5/5	mm
@@ -524,7 +524,7 @@ v_L08	3	hz	hz	hz	hz	hz	hz	5/5	hz
 v_L08	4	19	19	19	19	19	19	5/5	19
 v_L08	5	22	22	22	22	22	22	5/5	22
 v_L08	6	u	u	u	u	u	u	5/5	u
-v_L08	7	mz	mz	mz	mz	mz	mz	5/5	mz
+v_L08	7	mi	mz	mz	mz	mz	mz	5/5	mz
 v_L08	8	sg	sg	sg	sg	sg	sg	5/5	sg
 v_L08	9	14	14	14	14	14	14	5/5	14
 v_L08	10	6	6	6	6	6	6	5/5	6
@@ -592,7 +592,7 @@ v_L11	5	12	12	12	12	12	12	5/5	12
 v_L11	6	dl	dl	dl	dl	dl	dl	5/5	dl
 v_L11	7	z7	y	z7	z7	y	z7	3/5	z7
 v_L11	8	hz	hz	hz	hz	hz	hz	5/5	hz
-v_L11	9	mz	mz	mz	mz	mz	mz	5/5	mz
+v_L11	9	mi	mz	mz	mz	mz	mz	5/5	mz
 v_L11	10	21	21	21	21	21	21	5/5	21
 v_L11	11	m	m	m	m	m	mm	4/5	m
 v_L11	12	u	u	u	u	u	u	5/5	u
@@ -611,7 +611,7 @@ v_L12	3	7	7	7	7	7	7	5/5	7
 v_L12	4	th	th	th	th	th	th	5/5	th
 v_L12	5	8	8	8	8	8	8	5/5	8
 v_L12	6	dl	dl	dl	dl	dl	dl	5/5	dl
-v_L12	7	mz	mz	mz	mz	mz	mz	5/5	mz
+v_L12	7	mi	mz	mz	mz	mz	mz	5/5	mz
 v_L12	8	6	6	6	6	6	6	5/5	6
 v_L12	9	x	ae	ae	ae	ae	ae	5/5	x
 v_L12	10	ct	ct	ct	ct	ct	ct	5/5	ct

@@ -10,7 +10,7 @@
 ### f.50r
 | 行 | 読み | 印 | 注 |
 |---|---|---|---|
-| 1 | les conseillers de la | ✓ | 1つ目の mʒ＝s、2つ目＝i |
+| 1 | les conseillers de la | ✓ | 尾に横線のある mz＝s、横線のない mi＝i。「conseillers」の1つ目の l は ꝭʒ（t と l に使う） |
 | 2 | Barcelonne ayant ⟨p⟩ pr- | ~ | ⟨p⟩（縦棒の p）は値が分からない。行末の ʒc の右上に小さな印がある |
 | 3 | [i]s soing de faire preparer un l⟨ϭ⟩ | ~ | 「pris」の i が見当たらない。81＝faire（Tomokiyo）。行末の ϭ は「logis」などの頭か、語の符号か不明 |
 | 4 | a M. de Marca ont esté ⟨22⟩ | ~ | ℒ＝M（f.230r L14・L17 で確かめた）。点で囲まれた 22 は語の符号の可能性 |

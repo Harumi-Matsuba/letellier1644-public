@@ -22,6 +22,7 @@
 ## Not checked
 - An unbarred "12 19" / "12 6" read as qu'il (f. 50v lines 8, 10, 12). Confirmed on f. 171r against the period decipherment ("quil"), but not added to the key.
 - Checking of the transcription by a person (only AI cross-checks).
-- Redoing the f. 230r alignment with the σ sign and the barred y kept apart.
+- f. 230r from line 22, f. 230v and f. 231r have not been transcribed or aligned.
+- 6 standing for both t and l (f. 230r: t 14, l 6) and ff for both a and d (a 3, d 2) may hide a difference of shape we have missed.
 - Who "celuy qui fait icy les affaires de Barcelone" is; the link with the complaint about opened packets in f. 189r / f. 190r (September 1644).
 - Whether a printed edition (Sanabre, editions of Marca's letters) gives the plaintext of this letter (not checked).

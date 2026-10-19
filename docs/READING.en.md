@@ -12,7 +12,7 @@ Marks: **✓** reads with the key values and the words are sure; **~** a sign wa
 ### f. 50r
 | line | reading | mark | note |
 |---|---|---|---|
-| r01 | les conseillers de la | ✓ | the first mʒ = s, the second = i |
+| r01 | les conseillers de la | ✓ | mz with a barred tail = s, mi without a bar = i; the first l of "conseillers" is ꝭʒ (used for t and l) |
 | r02 | Barcelonne ayant ⟨p⟩ pr- | ~ | ⟨p⟩ (plain p) has no value; a small mark above the final ʒc |
 | r03 | [i]s soing de faire preparer un l⟨ϭ⟩ | ~ | no i of "pris"; 81 = faire (Tomokiyo); the final ϭ may begin "logis", or be a code sign |
 | r04 | a M. de Marca ont esté ⟨22⟩ | ~ | ℒ = M (checked on f. 230r L14, L17); 22 between dots may be a code group |

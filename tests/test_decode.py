@@ -49,13 +49,21 @@ class TestDecode(unittest.TestCase):
                               os.path.join(ROOT, 'calib', 'f171r_tx.txt'),
                               os.path.join(ROOT, 'calib', 'f172r_ref.txt')],
                              capture_output=True, text=True, check=True).stdout
-        self.assertIn('matched 256', out)
+        self.assertIn('matched 253', out)
 
     def test_open_items(self):
         # README の「9か所」と docs/OPEN.md の表の行数がそろう
         with open(os.path.join(ROOT, 'docs', 'OPEN.md'), encoding='utf-8') as f:
             rows = [l for l in f if l.startswith('| r') or l.startswith('| v')]
         self.assertEqual(len(rows), 9)
+
+
+    def test_table_check(self):
+        out = subprocess.run([sys.executable, os.path.join(ROOT, 'src', 'check_table.py'),
+                              os.path.join(ROOT, 'data', 'key.tsv'),
+                              os.path.join(ROOT, 'data', 'tomokiyo_table_signs.tsv')],
+                             capture_output=True, text=True, check=True).stdout
+        self.assertIn('main value not in table 0', out)
 
 
 if __name__ == '__main__':

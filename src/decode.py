@@ -5,7 +5,7 @@ import sys
 
 CODES = {'=9': 'pour', '=11': 'que', '=12': 'qui', '=26': 'vous', '=32': 'Barcelone',
          '=81': 'faire', '81': 'faire', '39': 'Catalogne', '=39': 'Catalogne',
-         '=y': 'Monsieur le Mareschal', '=3': 'de La Motte', '=o': '(=o)'}
+         '=y': 'Monsieur le Mareschal', '=3': 'de La Motte', '=83': 'le Gouverneur', '=5': 'ordres', '=o': '(=o)'}
 # 2語で1つの符号：=11 =o = la Reyne、=l =m = du Roi
 PAIRS = {('=11', '=o'): 'la Reyne', ('=l', '=m'): 'du Roi'}
 

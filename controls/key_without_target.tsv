@@ -1,5 +1,5 @@
 # Le Tellier→Marca 暗号（1644）の鍵。記号ごとの主な値と、兄弟書簡・f.50 で見た別の値
-# source: T＝Tomokiyo の表にある、S＝f.230r と f.232r の照合で確かめた（f230r_pairs.txt）、C＝f.50 の文脈だけから推定
+# source: T＝Tomokiyo の表にある、S＝f.230r と f.232r の照合で確かめた（data/f230r_sign_counts.tsv）、X＝別の AI との照合で分けた記号、C＝f.50 の文脈だけから推定
 # sign	main	other	source
 2	y	e	S
 3	h	x,s	T,S
@@ -25,7 +25,8 @@
 u	e	y	T,S
 th	e		T,S
 th7	m		T,S
-mz	s	i	T,S
+mz	s		T
+mi	i		T
 m	u	v,p,i	T,S
 mm	p	v	T,S
 hz	t	l	T,S
@@ -42,17 +43,17 @@ p	s		T
 rho	i		T,S
 f	r		T,S
 R	c		S
-y	g	b,n	T,S
+y	g	b	T,S
 n	y		T,C
 ct	a		T,S
 zc	r		S
-zx	r		S
+zx	r		T,S
 t	d		T,S
 E	o		T,S
 c	p	m	T,S
-ff	a		T,S
+ff	a	d	T,S
 H	o		T,S
-dd	r		S
+dd	r		T,S
 Lx	m		S
 xt	d		T
 bb	e	m	T,S
@@ -66,3 +67,6 @@ b	m		T
 hb	u		T
 z7	n		T,X
 gx	f		T
+o	z		S
+ell	x		T,S
+z3	s		S

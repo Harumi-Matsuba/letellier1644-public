@@ -7,12 +7,17 @@
 - Sister letters used to check the key: f. 230r (view 486) and its period decipherment f. 232r (view 490). For the code groups: f. 171r (366), f. 189r (402), f. 200r (424), f. 230v (487).
 
 ## Key (`data/key.tsv`)
-1. Base: Satoshi Tomokiyo's table (Cryptiana, louisxiv0.htm, "Le Tellier-Marca Cipher (1644)"), rewritten with our sign names.
-2. 18 lines of f. 230r aligned sign by sign with the period decipherment f. 232r (`data/f230r_pairs.txt`, `data/f232r_decipherment.txt`); this confirmed table values and added signs the table lacks (R = c, ʒc/ʒx = r, ꝺ = r, ℒ = M, Ꝺ = h, k = u). Uncertain pairs carry "?".
-3. Code groups: =9 pour, =11 que, =12 qui, =26 vous, =32 Barcelone, 81 faire, 39 Catalogne, =y Monsieur le Mareschal, =3 de La Motte, =11 =o la Reyne, =l =m du Roi. =3 was checked on f. 230r and f. 200r; =11 =o at three places of f. 189r against f. 190r.
+1. Base: Satoshi Tomokiyo's table (Cryptiana, louisxiv0.htm, "Le Tellier-Marca Cipher (1644)"), rewritten with our sign names; the signs of each column, in our names, are in `data/tomokiyo_table_signs.tsv`.
+2. Lines 1–21 of the sister letter f. 230r were transcribed by sign name (`data/f230r_tx.txt`) and aligned line by line, by dynamic programming, with the matching part of the period decipherment f. 232r (`data/f232r_ref_l1-21.txt`); the letters each sign stands for were counted (`src/align_sister.py` → `data/f230r_sign_counts.tsv`; per sign in `data/f230r_aligned.tsv`). Of 424 signs, 406 fall on a key value with the key before the changes, 412 after. Values and signs not in the table were added: R = c, ʒc/ʒx = r, ꝺ = r, ℒ = M, Ꝺ = h, k = u, small o = z, small ʒ (z3) = s, ff = d (besides a), 6 = l (besides t).
+3. Code groups: =9 pour, =11 que, =12 qui, =26 vous, =32 Barcelone, 81 faire, 39 Catalogne, =y Monsieur le Mareschal, =3 de La Motte, =11 =o la Reyne, =l =m du Roi, =83 le Gouverneur (f. 230r line 21). =3 was checked on f. 230r and f. 200r; =11 =o at three places of f. 189r against f. 190r.
 4. Column source: T = Tomokiyo's table; S = checked on f. 230r/f. 232r; X = split after the AI cross-check; C = inferred from f. 50 alone.
-- We first took 6 to stand for t and l, and y for n and g. The AI cross-check showed that l is a separate σ-shaped sign and n is a y with a bar, as Tomokiyo's table separates them. The f. 230r alignment was made before this split and has not been redone.
-- In the pre-publication check (20 Oct 2026) the key rows with source T were compared with Tomokiyo's table image and with NoAutopilot's independent copy of the same table (their key.tsv). y had wrongly been given the main value n; it is g, as in the table (the three y of f. 50 are the g of soing and garde and the b of liberté; none is n). The curly x has two forms, without a bar (f column) and with a bar through it (c column); Codex called both "ae". One place (r09) was corrected to the barred form (xx = c). The q-like sign for i is taken to be the 9-shaped sign of the table's i column (NoAutopilot copies it as 9).
+- **Check against the table**: the main value of every row whose source includes T is in the matching column of `data/tomokiyo_table_signs.tsv` (command in NUMBERS.md). Most other values (6 = l, u = y, ...) are not in the table and come from the f. 230r alignment (S).
+- Corrections made during the checks:
+  - 6 and the σ sign, y and the barred y, are different signs (found in the AI cross-check; as in the table's columns). On f. 230r, however, 6 stands for l six times (la Vallee, lettre, ...), so the other value l of 6 is kept.
+  - y had wrongly been given the main value n; it is g, as in the table. The three y of f. 50 are the g of soing and garde and the b of liberté; the four of f. 230r are g 3, b 1; none is n.
+  - The curly x has two forms, without a bar (f column) and with a bar through it (c column); Codex called both "ae".
+  - mz has two forms: with a barred tail (the m7 of the table's s column) and with an unbarred curled tail (the table's i column). Looking at the 17 places of f. 50 one by one on the image, the six barred ones are all s and the eleven unbarred ones all i; the latter are now named mi.
+  - The q-like sign for i is taken to be the 9-shaped sign of the table's i column, and ℓ the sign of its x column.
 
 ## Transcription (`data/transcription_f50.txt`)
 - Claude transcribed the full-size line images once, by sign name (`data/transcription_f50_before_xcheck.txt`).
@@ -26,26 +31,26 @@ Real key vs 1000 shuffles of its values, scored by French letter-trigram likelih
 
 | transcription | key | real | max of shuffles | shuffles ≥ real |
 |---|---|---|---|---|
-| final (32 lines) | all signs (69) | −3.446 | −5.006 | 0/1000 |
-| final | Tomokiyo's table signs only (57) | −3.388 | −4.900 | 0/1000 |
-| final | without values inferred from f. 50 (source C only) (65) | −3.429 | −4.737 | 0/1000 |
-| last fifth (f. 50v lines 7–12) | all signs | −3.182 | −4.468 | 0/1000 |
-| last fifth | without inferred values | −3.182 | −4.561 | 0/1000 |
-| Codex passes 1–5 | all signs | −3.751 / −3.589 / −3.540 / −3.716 / −3.527 | −4.983 / −4.965 / −4.937 / −4.890 / −4.998 | 0/1000 each |
+| final (32 lines) | all signs (73) | −3.286 | −5.073 | 0/1000 |
+| final | Tomokiyo's table signs only (61) | −3.185 | −4.741 | 0/1000 |
+| final | without values inferred from f. 50 (source C only) (69) | −3.266 | −4.784 | 0/1000 |
+| last fifth (f. 50v lines 7–12) | all signs | −3.182 | −4.579 | 0/1000 |
+| last fifth | without inferred values | −3.182 | −4.400 | 0/1000 |
+| Codex passes 1–5 | all signs | −3.751 / −3.589 / −3.540 / −3.716 / −3.527 | −5.011 / −4.996 / −5.006 / −5.041 / −4.976 | 0/1000 each |
 
-The score moved a little with each correction of the transcription and key (−3.421 before the cross-check, −3.458 after it, −3.446 after the table check); every version gives 0/1000.
+The score moved with each correction (−3.421 before the cross-check, −3.458 after it, −3.446 after the y correction, −3.286 after splitting mz and mi); every version gives 0/1000. The Codex transcriptions have no mi, so their real scores do not depend on that split.
 
 ## Calibration (`calib/`)
 Lines 12–24 of f. 171r were read with the same key and the reading frozen (SHA-256 in `calib/hashes_before_answer.txt`) before the period decipherment f. 172r was opened.
 
 | measure | result |
 |---|---|
-| sign accuracy, main and other values (`src/score_signs.py`) | 0.924 (256/277) |
+| sign accuracy, main and other values (`src/score_signs.py`) | 0.913 (253/277); 0.924 (256/277) with the key at the time the reading was frozen |
 | sign accuracy, main value only | 0.874 (242/277) |
 | letter agreement of our reading (`src/calib.py`) | 93.6% (337/360) |
 | letter agreement of the bare key | 84.2% (303/360) |
 
-Only 13 lines; not fully blind (we had earlier read seven lines of f. 172r, the start of the page, in NoAutopilot's transcription, so lines 1–11 were not used). Two findings came after seeing the answer and were not added to the key: an unbarred "12 19" = qu'il, and a 9 with a small g above = Sr.
+The drop from 0.924 to 0.913 is because the frozen calibration transcription predates the mz/mi split, so an mz that stands for i no longer matches under the current key. Only 13 lines; not fully blind (we had earlier read seven lines of f. 172r, the start of the page, in NoAutopilot's transcription, so lines 1–11 were not used). Two findings came after seeing the answer and were not added to the key: an unbarred "12 19" = qu'il, and a 9 with a small g above = Sr.
 
 ## What can be reproduced from this repository
 - The checks of code groups on f. 189r, f. 200r and f. 230v, and the decisions made on enlarged images of f. 50, rest on images not included here (view numbers in SOURCES.md). The period decipherments of f. 190r and f. 205r were taken from NoAutopilot's transcriptions and are not included.

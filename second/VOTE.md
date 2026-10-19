@@ -3,6 +3,8 @@
 （この文書の「私」は Claude。）
 
 ## 方法
+（2026-10-20 追記：その後、mz を mz と mi に分けた。Codex に渡した名前の一覧には mi がないので、投票では mi を mz と同じとみなした。src/vote.py の SAME）
+
 - Codex（OpenAI Codex CLI、codex-cli 0.163.0-alpha.10.2、既定のモデル）に、画像だけを渡して f. 50 を5回独立に書き起こさせた。
   - 1〜3回目：1行1枚の行画像32枚（PROMPT.md）
   - 4〜5回目：1行を左右2枚（約1割重ねる）に切った64枚、つまり切り方と拡大率を変えた（PROMPT_halves.md）
