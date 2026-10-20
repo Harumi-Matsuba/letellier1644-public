@@ -65,3 +65,6 @@ Not finding a reading does not prove that none exists. The README does not call 
 | Marca's reply (view 121, « A M. le Tellier, du 4 May 1644 ») | reports his arrival and the handover from La Berchère; nothing on the lodging or the packets |
 | Google Books API | daily quota, 429 (4 tries) |
 | Gallica full text | still a bot check page |
+
+## The catalogue's "avec traductions" (20 Oct 2026)
+The 1921 catalogue of the Baluze collection describes Baluze 103 fol. 41ff. (Le Tellier–Marca letters) as "dont quelques-unes chiffrées, avec traductions (fol. 50, 171, 189, 200, 230)". We looked at all 743 views of the volume (Gallica btv1b9001389d, BnF IIIF, views 1–743). Period decipherments are present for f. 171 (f. 172), f. 189 (f. 190), f. 200 (f. 205–206) and f. 230 (f. 232), each right after its cipher letter. **No decipherment of f. 50 was found anywhere in the volume**, so the reading of f. 50 cannot be checked against a period decipherment. The catalogue's "avec traductions" applies to four of the five letters.

@@ -65,3 +65,6 @@
 | Marca の返事（121 コマ、「A M. le Tellier, du 4 May 1644」） | 着任と La Berchère からの引き継ぎの報告で、宿や包みの件には触れていない |
 | Google Books の API | 1日の上限で 429（4回） |
 | Gallica の全文検索 | ボット確認の画面のまま |
+
+## 目録の「訳つき」の確かめ（2026-10-20）
+Baluze 文庫の目録（1921）は、Baluze 103 fol. 41 以下の Le Tellier と Marca の往復について「dont quelques-unes chiffrées, avec traductions (fol. 50, 171, 189, 200, 230)」と書く。巻の全743コマ（Gallica btv1b9001389d、BnF の IIIF、コマ1〜743）を見た。当時の解読文は、f. 171（f. 172）、f. 189（f. 190）、f. 200（f. 205〜206）、f. 230（f. 232）にあり、どれも暗号の書簡のすぐ後ろにある。**f. 50 の解読文は、巻のどこにも見つからなかった。** そのため、f. 50 の読みを当時の解読文と照らすことはできない。目録の「avec traductions」は5通のうち4通に当てはまる、と読むのが自然。
